@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(165, 203, 203);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    gap: 1rem;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    /* defoult row rahta hai */
+    justify-content: center;
+    /* main x- axis row ko chalta hai */
+    align-items: center;
+    /* main y-axis me karta hai */
+
+
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(128, 0, 2);
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(128, 126, 0);
+}
+.box4{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(128, 0, 81);
+}

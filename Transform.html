@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            display: inline-block;
+            text-align: center;
+            line-height: 100px;
+            font-size: 20px;
+        }
+        .red {
+            background-color: aquamarine;
+        }
+        .red:hover{
+            transform: rotateZ(45deg);
+
+        }
+        .blue{
+            background-color: blue;
+        }
+        .blue:hover{
+            transform: scaleY(2);
+        }
+        .green{
+            background-color: green;
+            
+        }
+        .green:hover{
+              transform: skew(-30deg);  
+        }
+        .pink{
+            background-color: pink;
+        }
+        .pink:hover{
+            transform: translate(-100px);
+        }
+    </style>
+</head>
+<body>
+    <div class="box red">Box1</div>
+    <div class="box blue">Box2</div>
+    <div class="box green">Box3</div>
+    <div class="box pink">Box4</div>
+</body>
+</html>

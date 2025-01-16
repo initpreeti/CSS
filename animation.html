@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes example{
+            0%{
+                top: 0px;
+                left:0vw;
+                transform: none;
+            }
+            100%{
+                top:0px;
+                left:100vw;
+                transform: rotate(360deg);
+                transition: transform 10s;
+        
+            }
+        }
+        .container{
+            position: relative;
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            animation-name: example;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-direction: reverse;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+</head>
+<body>
+     <div class="container"><img src="./IMG_20240112_180950.jpg" alt="preeti"></div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+div{
+    border: 1px solid black;
+    background-color: aquamarine;
+    /* Sets the top, right, bottom, and left padding of an element */
+    padding-top: 50px;
+    /* Sets the top padding of an element */
+    padding-right: 30px;
+    /* Sets the right padding of an element */
+    padding-bottom: 50px;
+    /* Sets the bottom padding of an element */
+    padding-left: 80px;
+    /* Sets the left padding of an element */
+   
+    /* short hand */
+    /* padding: 25px 50px 75px 100px; */
+    box-sizing: border-box;
+    /*use the box-sizing property. This causes the element to maintain its actual width; if you increase the padding, the available content space will decrease.  */
+}

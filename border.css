@@ -2,22 +2,28 @@
     border-style: dotted;
         margin-bottom: 1rem;
         background-color: aqua;
+        border-width: 5px;
 }
 .dashed{
     border-style: dashed;
     margin-bottom: 1rem;
     background-color: beige;
+    border-width: medium;
 
 }
 .solid{
     border-style: solid;
     margin-bottom: 1rem;
     background-color: bisque;
+    border-width: 3px;
+    border-radius: 5px;
+    /* margin: 25px 50px 75px 100px; */
 }
 
 .double{
     border-style: double;
     margin-bottom: 1rem;
+    border-width: thick;
 
 
 }
@@ -25,12 +31,12 @@
     border-style: groove;
     margin-bottom: 1rem;
     background-color: chocolate;
+    border-width: 6px;
 }
 .ridge{
     border-style: ridge;
     margin-bottom: 1rem;
-
-
+    border-width: 5px;
 }
 .inset{background-color: cornflowerblue;
     border-style: inset;
@@ -59,5 +65,7 @@
     border-style: dotted solid double;
     margin-bottom: 1rem;
     background-color: lightcoral;
+    border-width: 4px;
+
 
 }

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        li{
+            display: inline;
+            
+        }
+        span{
+            display: block;
+        }
+        .block a{
+            display: block;
+            text-decoration: none;
+        }
+        h1.hidden{
+            display: none;
+        }
+        h2.visibility_hidden{
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <p>Display a list of links as a horizontal menu:</p>
+    <ul >
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+
+    <hr>
+
+    <h2>Display span elements as block elements</h2>
+    <span>A display property with</span> 
+    <span>a value of "block" results in</span> 
+    <span>a line break between each span elements.</span>
+
+    <hr>
+
+    <h1>Display a block element as an inline element</h1>
+    <div class="block">
+        <a href="/html/default.asp" target="_blank">HTML</a>
+        <a href="/css/default.asp" target="_blank">CSS</a>
+        <a href="/js/default.asp" target="_blank">JavaScript</a>
+    </div>
+
+    <hr>
+
+    <h1> This is a visible heading</h1>
+    <h1 class="hidden"> this is a hidden heading</h1>
+    <p> Notice that the  h1 element with display: none; does not  take up any space on the page.</p>
+
+    <hr>
+    <h2>This is a visible heading</h2>
+    
+    <h2 class="visibility_hidden">This is a hidden heading</h2>
+
+    <p>Notice that the hidden heading still takes up space.</p>
+
+
+</body>
+</html>
